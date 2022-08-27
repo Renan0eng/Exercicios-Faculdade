@@ -1,1 +1,116 @@
-Reanan Nardi
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Exercicio HTML</title>
+</head>
+<style>
+    body {
+        align-items: center;
+    }
+    header {
+        text-align: center;
+    }
+    nav {
+        display: flex;
+    }
+   
+    #img-nav {
+        height: 370px;
+    }
+    section {
+        text-align: center;
+    }
+
+</style>
+<body>
+    <header>
+
+        <h1>Exercicio HTML</h1>
+        <h2>Aluno: <input type="text" placeholder="Renan Nardi"></h2>
+
+    </header>
+    <nav>
+        <ul class="tree">
+            <h2>Exercicio HTML</h2>
+            <li>
+                <span  wm-folder>backend</span>
+                <ul>
+                    <li>
+                        <span wm-folder>app</span>
+                        <ul>
+                            <li>produto.js</li>
+                            <li>usuario.js</li>
+                            <li>venda.js</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span wm-folder>config</span>
+                        <ul>
+                            <li>banco.js</li>
+                            <li>rotas.js</li>
+                            <li>servidor.js</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <span wm-folder>frontend</span>
+                <ul>
+                    <li>
+                        <span wm-folder>public</span>
+                        <ul>
+                            <li>app.css</li>
+                            <li>app.js</li>
+                            <li>index.html</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Link do style tree da lista -->
+        <link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+
+        <img id="img-nav" src="https://www.meme-arsenal.com/memes/acfa58982a124d90d133ba7a3b7b5c66.jpg" alt="">
+
+    </nav>
+    <section>
+        <table>
+            <caption>Produtos</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>iPad</td>
+                    <td>3289,00</td>
+                    <td>5</td>
+                    <td>16445,00</td>
+                </tr>
+                <tr>
+                   <td>Sansung S9</td> 
+                   <td>2649,00</td>
+                   <td>8</td>
+                   <td>21192,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>37637,00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+</body>
+
+</html>
